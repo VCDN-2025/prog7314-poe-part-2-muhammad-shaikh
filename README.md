@@ -67,12 +67,21 @@ The final design targets offline-first with background sync; in the prototype we
 - Tasks CRUD (with `DateTimeOffset?` `DueDateTime` column in final design).  
 - DB: PostgreSQL via EF Core.  
 - Swagger UI available in development.
+<img width="1834" height="888" alt="Screenshot 2025-10-07 204244" src="https://github.com/user-attachments/assets/abfdd3cd-288e-43be-afb5-dfa341bd1d98" />
+
+Neon Database Created
+
+<img width="1875" height="734" alt="Screenshot 2025-10-07 204343" src="https://github.com/user-attachments/assets/51fcdbad-cf6e-487b-b33e-4a068078d67b" />
+
+
 
 **Data flow (prototype)**  
 Android (SSO) → Google → returns ID token
 Android → API /auth/google (ID token) → returns JWT
 Android → API /tasks (JWT) → list/create/update/delete
 Android ↔ LocalDueStore (fallback due date)
+
+
 
 markdown
 Copy code
