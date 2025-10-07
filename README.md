@@ -7,20 +7,6 @@
 **StudySync** is an Android app that helps students capture tasks fast, see what’s due, and stay organised — even with spotty connectivity. The prototype for Part 2 demonstrates Google Sign-In (SSO), core task CRUD, due dates (with local fallback), a simple calendar view, language toggle (English/Afrikaans), a light/dark theme toggle, and rotating study tips. A minimal ASP.NET Core API with JWT auth backs the app.
 
 ---
-
-## Table of contents
-- [1. Purpose of the app](#1-purpose-of-the-app)
-- [2. Design considerations](#2-design-considerations)
-- [3. Features implemented in the prototype](#3-features-implemented-in-the-prototype)
-- [4. Architecture overview](#4-architecture-overview)
-- [5. Local setup & run](#5-local-setup--run)
-- [6. API quick reference](#6-api-quick-reference)
-- [7. Testing & CI with GitHub Actions](#7-testing--ci-with-github-actions)
-- [8. Version control workflow](#8-version-control-workflow)
-- [9. Demo video](#9-demo-video)
-- [10. How AI was used (short report)](#10-how-ai-was-used-short-report)
-- [11. References (Harvard style)](#11-references-harvard-style)
-
 ---
 
 ## 1. Purpose of the app
