@@ -40,6 +40,8 @@ The final design targets offline-first with background sync; in the prototype we
 
 ## 3. Features implemented in the prototype
 - **Google SSO**: “Continue with Google” → server verifies ID token → client gets JWT.
+<img width="1893" height="901" alt="Screenshot 2025-10-07 204226" src="https://github.com/user-attachments/assets/7a52e57f-980a-41f4-a918-06db5b72cbcc" />
+
 - **Tasks CRUD**: Create, list, toggle done/open, delete.
 - **Due dates**: Optional date/time at task creation.
 - **Calendar view**: Pick a date and see due tasks for that day.
