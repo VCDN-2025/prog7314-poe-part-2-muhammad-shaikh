@@ -35,7 +35,7 @@ Students often deal with patchy internet, limited data, and a mix of languages. 
 
 ## 2. Design considerations
 **Offline-first thinking (prototype-friendly):**  
-The final design targets offline-first with background sync; in the prototype we keep it simple: tasks are stored on the API, and due dates are also cached locally (so the Calendar view works even if the server ignores due dates).
+The final design targets offline-first with background sync; in the prototype we keep it simple: tasks are stored on the API, and due dates are also cached locally.
 
 **Simple, dependable UI:**  
 - Material toolbar + two FABs (Add Task, Settings) and a Calendar FAB.  
@@ -55,8 +55,8 @@ The final design targets offline-first with background sync; in the prototype we
 ## 3. Features implemented in the prototype
 - **Google SSO**: “Continue with Google” → server verifies ID token → client gets JWT.
 - **Tasks CRUD**: Create, list, toggle done/open, delete.
-- **Due dates**: Optional date/time at task creation. If the API doesn’t persist due dates yet, the app stores a **local fallback** to keep UX consistent.
-- **Calendar view**: Pick a date and see due tasks for that day (uses server due date if present, otherwise local fallback).
+- **Due dates**: Optional date/time at task creation.
+- **Calendar view**: Pick a date and see due tasks for that day.
 - **Settings**:
   - **Language**: English / Afrikaans.
   - **Theme**: Light / Dark / System default.
@@ -206,8 +206,8 @@ Pull Requests with CI checks.
 Tag releases (e.g., v0.1.0-prototype) before demo.
 
 
-Add your video link here:
-[Demo Video](https://your-link.example.com)
+9. video link:
+
 
 10. How AI was used (short report)
 AI tooling (ChatGPT) was used to:
@@ -224,7 +224,7 @@ Create a small tips feature (local array + header view) to add demonstrable func
 
 All AI-generated content was reviewed and tested by the developer. Sensitive credentials were kept out of source control. The final code reflects iterative refinement, with manual adjustments for the project’s exact package names, dependencies, and runtime behavior.
 
-11. References (Harvard style)
+11. References 
 Android Developers. (2024) Guide to app architecture (ViewModel, lifecycle). Available at: https://developer.android.com/topic/libraries/architecture (Accessed: date).
 
 Android Developers. (2024) Credentials and Google Sign-In on Android. Available at: https://developers.google.com/identity/sign-in/android (Accessed: date).
