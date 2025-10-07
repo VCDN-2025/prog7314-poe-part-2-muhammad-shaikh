@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme (NoActionBar so our MaterialToolbar can be the ActionBar) -->
+    <style name="Base.Theme.StudySync" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Place any light/dark shared customizations here -->
+        <!-- <item name="colorPrimary">@color/your_primary</item> -->
+    </style>
+
+    <!-- App theme -->
+    <style name="Theme.StudySync" parent="Base.Theme.StudySync" />
+</resources>

@@ -1,0 +1,64 @@
+# ------------ ANDROID / GRADLE ------------
+# Build outputs and caches
+.gradle/
+build/
+**/build/
+
+# Local, machine-specific SDK/NDK paths
+local.properties
+
+# Log / temporary files
+*.log
+*.tmp
+
+# JetBrains/Android Studio project files (re-creatable)
+.idea/
+*.iml
+
+# Mac / Windows cruft
+.DS_Store
+Thumbs.db
+
+# ------------ SECRETS / KEYS ------------
+# Keystores (never commit signing keys)
+*.jks
+*.keystore
+*.keystore.jks
+
+# If you use environment files for secrets
+.env
+.env.*
+
+# ------------ GOOGLE / FIREBASE ------------
+# Do not commit your Google services config unless your lecturer explicitly requires it
+**/google-services.json
+**/GoogleService-Info.plist
+.crc2
+
+# ------------ APP ARTIFACTS ------------
+# Don’t commit built APKs / AABs (attach to releases instead)
+*.apk
+*.aab
+
+# ------------ KOTLIN / JAVA ------------
+# Annotation processing, kapt, etc.
+**/captures/
+**/.kotlin/
+**/kotlin/*
+kotlin/**
+# Lint outputs
+**/lint/intermediates/
+**/lint/generated/
+**/lint/outputs/
+**/lint/tmp/
+
+# ------------ MISC TOOLS ------------
+# Fastlane outputs (if used)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+# Gradle wrapper jar is OK to keep; wrapper caches are not
+# (Keep gradlew, gradlew.bat, gradle/wrapper/gradle-wrapper.properties)
+# Ignore wrapper caches:
+.gradle/7.*/  # example cache versions (redundant with .gradle/, but fine)

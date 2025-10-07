@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">StudySync</string>
+    <string name="server_client_id">728541621629-o4ic1igt5jeboudopi8lp7be7hm8vin0.apps.googleusercontent.com</string>
+
+
+    <!-- Hoofaksies -->
+    <string name="add_task">Voeg taak by</string>
+    <string name="new_task">Nuwe taak</string>
+    <string name="create">Skep</string>
+    <string name="delete">Vee uit</string>
+    <string name="delete_task">Vee taak uit</string>
+    <string name="delete_confirm">Vee “%1$s” uit?</string>
+    <string name="task_title_hint">Titel</string>
+    <string name="next">Volgende</string>
+
+    <!-- Instellings -->
+    <string name="settings">Instellings</string>
+    <string name="language">Taal</string>
+    <string name="lang_english">Engels</string>
+    <string name="lang_afrikaans">Afrikaans</string>
+    <string name="weekly_digest">Weeklikse opsomming</string>
+
+    <!-- Foute -->
+    <string name="error">Fout</string>
+
+    <!-- Sperdatum / kalender -->
+    <string name="add_due_date">Voeg sperdatum by</string>
+    <string name="add_due_date_prompt">Wil jy ’n sperdatum en tyd byvoeg?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+    <string name="no_due">Geen sperdatum</string>
+    <string name="calendar">Kalender</string>
+    <string name="pick_date">Kies datum</string>
+    <string name="tasks_for_date">Take vir %1$s</string>
+    <string name="no_tasks">Geen take</string>
+    <string name="tip_header">Study Tip</string>
+    <string name="btn_next_tip">Next</string>
+    <string name="btn_share_tip">Share</string>
+    <string name="theme">Tema</string>
+    <string name="dark_theme">Donker tema</string>
+</resources>

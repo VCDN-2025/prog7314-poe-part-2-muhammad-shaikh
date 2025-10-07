@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">StudySync</string>
+    <string name="server_client_id">728541621629-o4ic1igt5jeboudopi8lp7be7hm8vin0.apps.googleusercontent.com</string>
+
+    <!-- Main actions -->
+    <string name="add_task">Add Task</string>
+    <string name="new_task">New Task</string>
+    <string name="create">Create</string>
+    <string name="delete">Delete</string>
+    <string name="delete_task">Delete task</string>
+    <string name="delete_confirm">Delete “%1$s”?</string>
+    <string name="task_title_hint">Title</string>
+    <string name="next">Next</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="lang_english">English</string>
+    <string name="lang_afrikaans">Afrikaans</string>
+    <string name="weekly_digest">Weekly digest</string>
+
+    <!-- Errors -->
+    <string name="error">Error</string>
+
+    <!-- Due date / calendar -->
+    <string name="add_due_date">Add due date</string>
+    <string name="add_due_date_prompt">Do you want to add a due date and time?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="no_due">No due date</string>
+    <string name="calendar">Calendar</string>
+    <string name="pick_date">Pick date</string>
+    <string name="tasks_for_date">Tasks for %1$s</string>
+    <string name="no_tasks">No tasks</string>
+    <string name="tip_header">Study Tip</string>
+    <string name="btn_next_tip">Next</string>
+    <string name="btn_share_tip">Share</string>
+    <string name="theme">Theme</string>
+    <string name="dark_theme">Dark theme</string>
+</resources>
