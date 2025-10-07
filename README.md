@@ -203,7 +203,7 @@ Pull Requests with CI checks.
 Tag releases (e.g., v0.1.0-prototype) before demo.
 
 
-9. video link:
+9. video link: https://youtube.com/shorts/CTRp3N2f5KA?si=MFY8_6ThPUEsn63m
 
 
 10. How AI was used (short report)
